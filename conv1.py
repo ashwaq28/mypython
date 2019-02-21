@@ -1,4 +1,4 @@
-def convert2(l):
+def convert(l):
     s = ''
     for i in l:
         count = 0
@@ -9,4 +9,4 @@ def convert2(l):
         s += ';'
     return s
 
-print(convert2([('a','b'),('c','d'),('e','f'),('g','h')]))
+print(convert([('a','b'),('c','d'),('e','f'),('g','h')]))
