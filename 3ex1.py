@@ -11,7 +11,7 @@ def enter():
         print('Pay: '+ str(p))
 
     except:
-        print('Please enter a numeric value')
+        print('Please enter a numeric value!!')
         exit(0)
     
     return
